@@ -16,7 +16,7 @@ this api contains a environment with all the libraries necesary to use the progr
 
 
 # Endpoints 
-  /api/newGame: Restart the current game cleaning all moves
-  /api/makeMove: Creates a new move by the player, after there is a success move, the machine creates the next move for making the process interactive
-  /api/checksWinner: checks if there is a winner, draw or if the game is over without any winner
+  1. /api/newGame: Restart the current game cleaning all moves
+  2. /api/makeMove: Creates a new move by the player, after there is a success move, the machine creates the next move for making the process interactive
+  3. /api/checksWinner: checks if there is a winner, draw or if the game is over without any winner
 
