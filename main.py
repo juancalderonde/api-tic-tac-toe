@@ -9,7 +9,7 @@ game = TicTacToe('X', 'O')
 @app.route("/api/newGame", methods=['GET'])
 def playTicTacToe():
     game.reset()
-    return game.__str__()
+    #return game.__str__()
 
 @app.route("/api/makeMove", methods=['POST'])
 def makeMove():
